@@ -16,14 +16,14 @@ const path = {
     src: {
         js: `${srcFolder}/assets/js/app.js`,
         images: `${srcFolder}/assets/img/**/*.{jpg,jpeg,png,gif,webp,mp4,mov}`,
-        svg: `${srcFolder}/assets/img/**/*.svg`,
+        svg: [`${srcFolder}/assets/img/**/*.svg`, `${srcFolder}/img/**/*.svg`],
         scss: `${srcFolder}/assets/scss/*.scss`,
         html: `${srcFolder}/*.html`,
         files: `${srcFolder}/files/**/*.*`,
     },
     watch: {
         js: `${srcFolder}/assets/js/**/*.js`,
-        images: `${srcFolder}/assets/img/**/*.{jpg,jpeg,png,svg,ico,gif,webp}`,
+        images: [`${srcFolder}/assets/img/**/*.{jpg,jpeg,png,svg,ico,gif,webp}`, `${srcFolder}/img/**/*.svg`],
         scss: `${srcFolder}/assets/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,
         files: `${srcFolder}/files/**/*.*`,

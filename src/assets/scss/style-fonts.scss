@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.woff2") format("woff2"),
+        url("../fonts/icomoon.ttf") format("truetype"),
+        url("../fonts/icomoon.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-palette-values --palette0 {
+    font-family: "icomoon";
+    base-palette: 0;
+}
+.icon, [class^="_icon-"], [class*=" _icon-"] {
+    /* Use !important to prevent extensions from overriding this font. */
+    font-family: "icomoon" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.palette0 {
+    font-palette: --palette0;
+    color: currentColor;
+}
+._icon-user-outline:before {
+    content: "\f000";
+}
+._icon-trash:before {
+    content: "\f001";
+}
+._icon-shopping-cart:before {
+    content: "\f002";
+}
+._icon-search:before {
+    content: "\f003";
+}
+._icon-plus:before {
+    content: "\f004";
+}
+._icon-person:before {
+    content: "\f005";
+}
+._icon-minus:before {
+    content: "\f006";
+}
+._icon-menu:before {
+    content: "\f007";
+}
+._icon-logout:before {
+    content: "\f008";
+}
+._icon-info:before {
+    content: "\f009";
+}
+._icon-heart:before {
+    content: "\f00a";
+}
+._icon-close:before {
+    content: "\f00b";
+}
+._icon-chevron-up:before {
+    content: "\f00c";
+}
+._icon-chevron-right:before {
+    content: "\f00d";
+}
+._icon-chevron-down:before {
+    content: "\f00e";
+}
+._icon-check:before {
+    content: "\f00f";
+}
+._icon-check-outline:before {
+    content: "\f010";
+}
+._icon-cart-outline:before {
+    content: "\f011";
+}
+._icon-box:before {
+    content: "\f012";
+}
+._icon-arrow-right:before {
+    content: "\f013";
+}
+._icon-arrow-left:before {
+    content: "\f014";
+}
